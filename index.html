@@ -1,0 +1,137 @@
+<!-- Wordle clone source code can be found at: 
+https://www.freecodecamp.org/news/build-a-wordle-clone-in-javascript/
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codele</title>
+  <!-- StyleSheet for our CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	<link rel="icon" href="assets/images/CodeleLogoSmall.png">
+</head>
+<body>
+  <audio id="backMusic" autoplay>
+  </audio>
+  <script>
+    var vid = document.getElementById("backMusic");
+    vid.volume = 0.2;
+  </script>
+  <div class="navbar">
+      <ul>
+        <li>
+          <div id="container">
+            <div id="button" class="questionBox"></div>
+          </div>
+          <script src="script.js" type="module"></script>
+        </li>
+        
+        <li>
+          <div id="containerTwo">
+            <div id="buttonTwo" class="offButton"></div>
+          </div>
+          <script src="hints.js" type="module"></script>
+        </li>
+
+        <li>
+          <div id="containerThree">
+            <div id="buttonThree" class="answerBox"></div>
+          </div>
+          <script src="script.js" type="module"></script>
+        </li>
+          
+        <li>
+          <div id="containerFour">
+            <div id="buttonFour" class="newGameBox"></div>
+          </div>
+          <script src="script.js" type="module"></script>    
+        </li>
+      </ul> 
+  </div> 
+  
+  <center><h1 class="codeleHeader"> Codele </h1></center>
+    
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <!--<script src="script.js" type="module"></script-->
+  <div class="body">
+    <div id="game-board">
+      <div id="keyboard-cont">
+        <div class="first-row">
+            <button class="keyboard-button">q</button>
+            <button class="keyboard-button">w</button>
+            <button class="keyboard-button">e</button>
+            <button class="keyboard-button">r</button>
+            <button class="keyboard-button">t</button>
+            <button class="keyboard-button">y</button>
+            <button class="keyboard-button">u</button>
+            <button class="keyboard-button">i</button>
+            <button class="keyboard-button">o</button>
+            <button class="keyboard-button">p</button>
+        </div>
+        <div class="second-row">
+            <button class="keyboard-button">a</button>
+            <button class="keyboard-button">s</button>
+            <button class="keyboard-button">d</button>
+            <button class="keyboard-button">f</button>
+            <button class="keyboard-button">g</button>
+            <button class="keyboard-button">h</button>
+            <button class="keyboard-button">j</button>
+            <button class="keyboard-button">k</button>
+            <button class="keyboard-button">l</button>
+        </div>
+        <div class="third-row">
+            <button class="keyboard-button">Del</button>
+            <button class="keyboard-button">z</button>
+            <button class="keyboard-button">x</button>
+            <button class="keyboard-button">c</button>
+            <button class="keyboard-button">v</button>
+            <button class="keyboard-button">b</button>
+            <button class="keyboard-button">n</button>
+            <button class="keyboard-button">m</button>
+            <button class="keyboard-button">Enter</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-container">
+    <div class="footer">
+        <div class="footer-heading footer-1">
+            <h2 class="extra">About Us</h2>
+            <a class="extra" href="#">Blog</a>
+            <a class="extra" href="#">Demo</a>
+            <a class="extra" href="#">Customers</a>
+            <a class="extra" href="#">Investors</a>
+            <a class="extra" href="#">Terms of Service</a>
+        </div>
+        <div class="footer-heading footer-2">
+            <h2 class="extra">Contact Us</h2>
+            <a class="extra" href="#">Jobs</a>
+            <a class="extra" href="#">Support</a>
+            <a class="extra" href="#">Contact</a>
+            <a class="extra" href="#">Sponsorships</a>
+        </div>
+        <div class="footer-heading footer-3">
+            <h2 class="extra">Social Media</h2>
+            <a class="extra" href="#">Instagram</a>
+            <a class="extra" href="#">Facebook</a>
+            <a class="extra" href="#">Youtube</a>
+            <a class="extra" href="#">Twitter</a>
+        </div>
+        <div class="footer-email-form">
+            <h2>Join our newsletter</h2>
+            <input type="email" placeholder="Enter your email address" id="footer-email">
+            <input type="submit" value="Sign Up" id="footer-email-btn">
+        </div>
+    </div>
+  </div>
+</body>
+</html>

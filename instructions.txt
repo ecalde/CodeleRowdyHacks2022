@@ -1,0 +1,15 @@
+Guess the CODELE in 6 tries
+
+Each guess is a 5 a letter word, however, the answer will be a coding/tech word
+
+A green tile means the letter is in the word and in the correct spot
+
+A yellow tile means the letter is in the word, but in the wrong spot
+
+A gray tile means the letter is not in the word
+
+You may use the hint button, which will give you a code snippet with the keyword blanked out or a definition of the word
+
+The answer can be revealed to you, if you choose
+
+Click new game when ready 

@@ -1,0 +1,197 @@
+While: 
+_____ (  true ) 
+    printf('hello'); 
+  end 
+
+Float:
+_____ num = 2.9;
+
+const:
+_____ int num = 9;
+
+class:  
+public _____ Main {
+  int x = 5;
+}
+
+break:
+switch (n)
+{
+    case 1: 
+        _____;
+    case 2: 
+        _____;
+    default:
+}
+
+raise: 
+x = -1
+if x < 0:
+  _____ Exception("Sorry, no numbers below zero")
+
+catch:
+
+try {
+
+} _____ (IOException e) {
+
+}
+
+short:
+unsigned _____
+
+super:
+_____(variable) //also known as a parent class
+
+throw:
+_____ new IOException("sorry device error");   
+
+array:
+int[] num = {1, 2, 3, 4};
+
+abort: 
+*stop sign*
+
+apple:
+*apple logo*
+
+arial:
+type of font
+
+ascii:
+number codes that represents letters, numbers, and punctuation
+
+block:
+another word for a chunk of code
+
+cache:
+temporary memory
+
+click:
+selecting by pressing a button
+
+close:
+exit 
+
+crash:
+when a program stops operating
+
+debug:
+catch errors
+
+email:
+electronic mail
+
+erase:
+to remove
+
+excel:
+spreadsheet program
+
+field:
+part of a record
+
+flash:
+type of program
+
+forum:
+online discussion
+
+frame:
+a single image
+
+image:
+a copy of the entire state of an operating system
+
+input:
+put data into a computer
+
+intel:
+company that develops microprocessors
+
+laser:
+device that generates light
+
+layer:
+organization of programming
+
+logic:
+guides the behavior of code
+
+login:
+credentials that allow you in a system
+
+macro:
+#define num = 5
+
+media:
+mass communication
+
+micro:
+very small
+
+modem:
+device that converts signals from one device to another
+
+morph:
+change from image to another
+
+mouse:
+pointing input device of computer
+
+octal:
+numerical notation of base 8
+
+patch:
+a piece of code that can be applied to correct an error
+
+pixel:
+unit of color on a display
+
+proxy:
+intermediary between user and the internet
+
+purge:
+permanently removing data
+
+query:
+request for data
+
+queue:
+type of data structure
+
+reset:
+restart
+
+power:
+on button
+
+robot:
+machine resembling a human
+
+spool:
+simultaneous periphal operations online
+
+stack:
+type of data structure
+
+stats:
+interpretation of data
+
+suite:
+collection of computer programs
+
+table:
+structure used to organize information
+
+track:
+data storage ring that is capable of storing information
+
+tweet:
+communicate on a social media app
+
+virus:
+piece of code capable of destroying data
+
+coder:
+someone who codes
